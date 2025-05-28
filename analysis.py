@@ -10,12 +10,12 @@ print("First few rows of data:")
 print(data.head())
 
 # Check column data types
-print("\nData Types:")
-print(data.info())
+# print("\nData Types:")
+# print(data.info())
 
 # Summary statistics
-print("\nSummary Statistics:")
-print(data.describe())
+# print("\nSummary Statistics:")
+# print(data.describe())
 
 # Calculate basic statistics
 mean_values = data.mean(numeric_only=True)
