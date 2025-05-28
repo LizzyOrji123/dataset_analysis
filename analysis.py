@@ -10,8 +10,8 @@ print("First few rows of data:")
 print(data.head())
 
 # Check column data types
-# print("\nData Types:")
-# print(data.info())
+print("\nData Types:")
+print(data.info())
 
 # Summary statistics
 # print("\nSummary Statistics:")
